@@ -1,0 +1,6 @@
+# installing docker
+sudo apt  install docker.io
+# Give jenkins access to docker
+sudo usermod -a -G docker jenkins
+# restart jenkins
+sudo /etc/init.d/jenkins restart
